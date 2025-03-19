@@ -69,8 +69,8 @@
         flex-direction: column;
     }
     #About-img-thumbnail{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 #about-info{
