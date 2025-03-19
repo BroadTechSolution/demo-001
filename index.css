@@ -4,6 +4,7 @@
     max-width: 100%;
 }
 .navbar{
+    padding: 15px;
     background-color: #fff;
 }
 #carouselExample{
