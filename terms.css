@@ -1,0 +1,27 @@
+.navbar{
+    height: 100px;
+    background-color: #fff;
+}
+#container {
+    max-width: 800px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+h1 {
+    color: #0d6efd;
+}
+h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

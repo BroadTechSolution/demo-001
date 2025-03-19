@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.navbar{
+    height: 100px;
+    background-color: #fff;
+}
+#carouselExample{
+    position: relative;
+}
+.overlay-image{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color: #fff;
+}
+.room-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.room-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+#About-img-thumbnail{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+#about-container{
+    background-image: url(./assets/WhatsApp-Image-2024-10-07-at-19.55.39_09745e19.png);
+}
+#about-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff; 
+    padding: 5px;
+}
+#review-span{
+    font-size: 24px;
+    border-top: 1px solid #0d6efd;
+    padding: 5px 0;
+}
+#carousel-card{
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);   
+}
+
+@media screen and (max-width: 768px) {
+    .overlay-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    #overlay-text-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #About-img-thumbnail{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#about-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff; 
+    width: 80%;
+}   
+#about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about-info-area{
+    justify-content: center;
+}
+#about-image-area{
+    padding: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+}
