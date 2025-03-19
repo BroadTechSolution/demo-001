@@ -96,3 +96,10 @@
     justify-content: center;
 }
 }
+@media screen and (max-width: 400px) {
+    #About-img-thumbnail{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
